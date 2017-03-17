@@ -66,7 +66,7 @@ header {
     header .hdTop p {
       margin: 0; }
       header .hdTop p em {
-        color: #2fb464; }
+        color: #ff6551; }
     header .hdTop .hdBtns li {
       display: inline-block; }
       header .hdTop .hdBtns li + li {
@@ -102,7 +102,7 @@ header {
         header .hdTop .fltR {
           display: none; } }
   header .hdBtm {
-    background-color: #2fb464;
+    background-color: #ff6551;
     padding: 12px 0; }
     header .hdBtm nav ul {
       display: table; }
@@ -144,7 +144,7 @@ header {
               background: url(../img/sp_menu.png) no-repeat right center;
               background-size: 25px;
               padding: 10px;
-              color: #2fb464; }
+              color: #ff6551; }
         header .hdBtm .searchWrap {
           background-color: #fff;
           padding: 10px 15px; }
@@ -159,14 +159,14 @@ header {
         background: #FFF;
         width: 40px;
         padding: 3px 5px 2px 5px;
-        color: #2fb464;
+        color: #ff6551;
         font-size: 10px;
         text-align: center;
         line-height: 1.1em;
         text-decoration: none;
-        border-left: 1px solid #2fb464;
+        border-left: 1px solid #ff6551;
         border-radius: 0 0 5px 5px;
-        box-shadow: 2px 2px 2px #2fb464;
+        box-shadow: 2px 2px 2px #ff6551;
         position: absolute;
         right: 5px;
         top: 0px;
@@ -213,7 +213,7 @@ footer:before {
   background-size: auto 100%;
   height: 58px; }
 footer .ftLinks {
-  background-color: #27ae44; }
+  background-color: #fd806e; }
   footer .ftLinks nav {
     padding: 30px 0 40px;
     color: #fff;
@@ -344,7 +344,7 @@ footer .copyRight {
   margin-bottom: 20px;
   padding: 13px 190px 11px 0;
   font-size: 24px;
-  border-top: 4px solid #27ae44;
+  border-top: 4px solid #fd806e;
   border-bottom: 1px solid #ccc;
   position: relative; }
   .ttlBox1 .ttl {
@@ -353,13 +353,13 @@ footer .copyRight {
     font-weight: bold; }
     .ttlBox1 .ttl > i {
       margin-right: 10px;
-      color: #27ae44;
+      color: #fd806e;
       font-size: 125%;
       vertical-align: top; }
     .ttlBox1 .ttl > span {
       vertical-align: top; }
       .ttlBox1 .ttl > span em {
-        color: #27ae44;
+        color: #fd806e;
         font-size: 145.83333%; }
         .ttlBox1 .ttl > span em.fontS {
           font-size: 116.66667%; }
@@ -501,7 +501,7 @@ footer .copyRight {
 
 .ttlBox5 {
   padding-bottom: 15px;
-  border-bottom: 1px solid #27ae44;
+  border-bottom: 1px solid #fd806e;
   position: relative; }
   .ttlBox5.withBtn {
     padding-right: 160px; }
@@ -513,7 +513,7 @@ footer .copyRight {
     font-size: 18px;
     font-weight: bold; }
     .ttlBox5 .ttl em {
-      color: #2fb464;
+      color: #ff6551;
       font-size: 177.77778%; }
   .ttlBox5 .btnS1 {
     position: absolute;
@@ -620,7 +620,7 @@ footer .copyRight {
   display: table;
   width: 100%;
   padding-bottom: 15px;
-  border-bottom: 1px solid #27ae44; }
+  border-bottom: 1px solid #fd806e; }
   .ttlBox8 > * {
     display: table-cell;
     vertical-align: middle; }
@@ -629,7 +629,7 @@ footer .copyRight {
     font-size: 18px;
     font-weight: bold; }
     .ttlBox8 > .ttl em {
-      color: #2fb464;
+      color: #ff6551;
       font-size: 177.77778%; }
   .ttlBox8 > div {
     width: 130px; }
@@ -655,11 +655,11 @@ footer .copyRight {
   margin-bottom: 20px;
   padding: 10px 0;
   font-size: 29px;
-  border-top: 4px solid #27ae44;
+  border-top: 4px solid #fd806e;
   border-bottom: 1px solid #ccc; }
   .ttlBox9 .ttl {
     display: inline-block;
-    color: #27ae44;
+    color: #fd806e;
     font-size: 100%;
     font-weight: bold; }
   .ttlBox9 small {
@@ -676,10 +676,10 @@ footer .copyRight {
 
 .ttl1 {
   padding-bottom: 15px;
-  color: #27ae44;
+  color: #fd806e;
   font-size: 28px;
   font-weight: bold;
-  border-bottom: 1px solid #2fb464; }
+  border-bottom: 1px solid #ff6551; }
   @media screen and (max-width: 767px) {
     .ttl1 {
       padding-bottom: 10px;
@@ -841,9 +841,9 @@ i[class^="icnBg-rank"] {
     box-shadow: 0 3px 0 #aaa; }
   .btn.clr3 {
     background-color: #fff;
-    color: #27ae44;
-    border: 1px solid #27ae44;
-    box-shadow: 0 3px 0 #27ae44; }
+    color: #fd806e;
+    border: 1px solid #fd806e;
+    box-shadow: 0 3px 0 #fd806e; }
   .btn.clr4 {
     background-color: #fff;
     border: 1px solid #ccc; }
@@ -970,10 +970,10 @@ button.btn {
   .lbl.type1 {
     background-color: #fff;
     padding: 0 10px;
-    color: #27ae44;
+    color: #fd806e;
     font-size: 11px;
     line-height: 17px;
-    border: 1px solid #27ae44; }
+    border: 1px solid #fd806e; }
   .lbl.type2 {
     background-color: #666;
     padding: 3px 20px 0px;
@@ -1000,7 +1000,7 @@ button.btn {
     line-height: 1.17647;
     border-radius: 3px; }
   .lbl.type6 {
-    background-color: #2fb464;
+    background-color: #ff6551;
     padding: 5px 10px 4px;
     color: #fff;
     font-size: 11px;
@@ -1080,7 +1080,7 @@ button.btn {
       margin-bottom: 10px; }
     .list1 ul li .inCol .ttl {
       margin: 0 0 15px;
-      color: #27ae44;
+      color: #fd806e;
       font-size: 16px; }
     .list1 ul li .inCol .stars {
       margin-bottom: 15px; }
@@ -1145,7 +1145,7 @@ button.btn {
     .list2 li .inCol .txt {
       margin: 0;
       padding-left: 12px;
-      color: #27ae44;
+      color: #fd806e;
       font-size: 16px;
       font-weight: bold; }
 @media screen and (max-width: 1199px) {
@@ -1286,7 +1286,7 @@ button.btn {
       color: #000;
       font-size: 14px;
       font-weight: bold;
-      border-bottom: 1px solid #27ae44; }
+      border-bottom: 1px solid #fd806e; }
   .list4 > ul > li .box .tags .row {
     background-color: #e5e5e5;
     padding-top: 15px;
@@ -1491,7 +1491,7 @@ button.btn {
         .list6 > ul > li .partCont .partTxt {
           color: #000; }
           .list6 > ul > li .partCont .partTxt a {
-            color: #27ae44;
+            color: #fd806e;
             text-decoration: underline; }
             .list6 > ul > li .partCont .partTxt a:hover {
               opacity: 1;
@@ -1841,7 +1841,7 @@ vertical-align: top;}
     width: 48%;
     padding: 12px 12px 15px;
     border-radius: 5px;
-    border: 3px solid #2fb464;
+    border: 3px solid #ff6551;
     box-shadow: 2px 4px 2px rgba(0, 1, 30, 0.36);
     position: relative; }
     .aveUniPrice .boxes li:before {
@@ -1867,9 +1867,9 @@ vertical-align: top;}
       padding: 0 0 10px 40px;
       font-size: 20px;
       font-weight: bold;
-      border-bottom: 1px solid #27ae44; }
+      border-bottom: 1px solid #fd806e; }
       .aveUniPrice .boxes li h3 em {
-        color: #27ae44;
+        color: #fd806e;
         font-size: 120%; }
     .aveUniPrice .boxes li .dsT {
       margin: auto;
@@ -2036,7 +2036,7 @@ vertical-align: top;}
         .comments1 .fukidasi > div p em {
           display: block;
           margin-bottom: 10px;
-          color: #27ae44;
+          color: #fd806e;
           font-weight: bold; }
   @media screen and (max-width: 767px) {
     .comments1 .human {
@@ -2106,7 +2106,7 @@ vertical-align: top;}
     margin: 0 -15px; }
     .totalRateBox .tabs1 > ul {
       padding: 0 10px;
-      border-bottom: 3px solid #27ae44; }
+      border-bottom: 3px solid #fd806e; }
   .totalRateBox .aveKutiBox {
     margin-top: 15px;
     border-top: 1px solid #ccc; }
@@ -2203,7 +2203,7 @@ vertical-align: top;}
     .detailMainBox .imgTxt .txts .ttls .lbl {
       margin-right: 10px; }
     .detailMainBox .imgTxt .txts .ttls .ttl {
-      color: #2fb464;
+      color: #ff6551;
       font-size: 18px;
       font-weight: bold; }
   .detailMainBox .imgTxt .txts p em {
@@ -2239,7 +2239,7 @@ vertical-align: top;}
 .prefRateBox {
   background-color: #faf8f5;
   padding: 20px 15px;
-  border-top: 3px solid #27ae44; }
+  border-top: 3px solid #fd806e; }
   .prefRateBox .partT .lbl {
     display: block; }
   .prefRateBox .partT .txt1 {
@@ -2314,7 +2314,7 @@ vertical-align: top;}
       border-bottom: none !important; }
       .tabs1 > ul > li > a > span > em {
         display: block;
-        color: #27ae44;
+        color: #fd806e;
         font-weight: bold; }
       .tabs1 > ul > li > a:hover {
         opacity: 1; }
@@ -2322,7 +2322,7 @@ vertical-align: top;}
           opacity: 0.7; }
     .tabs1 > ul > li.here > a {
       padding-top: 0;
-      border: 3px solid #27ae44;
+      border: 3px solid #fd806e;
       position: relative; }
       .tabs1 > ul > li.here > a:after {
         content: '';
@@ -2427,13 +2427,13 @@ vertical-align: top;}
         color: #000;
         font-size: 14px; }
         .tabBox1 .cont > li .partTxt a {
-          color: #27ae44;
+          color: #fd806e;
           text-decoration: underline; }
           .tabBox1 .cont > li .partTxt a:hover {
             text-decoration: none;
             opacity: 1; }
       .tabBox1 .cont > li .partTags a {
-        color: #27ae44;
+        color: #fd806e;
         font-size: 12px;
         text-decoration: underline; }
         .tabBox1 .cont > li > .partTags a:hover {
@@ -2544,7 +2544,7 @@ vertical-align: top;}
     margin-top: 20px; } }
 
 .filterBox .ttl {
-  background-color: #27ae44;
+  background-color: #fd806e;
   padding: 10px 15px 6px;
   color: #fff;
   font-size: 16px; }
@@ -2856,7 +2856,7 @@ vertical-align: top;}
       width: 100%;
       margin-bottom: 20px;
       padding: 10px 0;
-      border-top: 4px solid #27ae44;
+      border-top: 4px solid #fd806e;
       border-bottom: 1px solid #ccc; }
       .pageMemberRegi .meritBox ol > li h4 > * {
         display: table-cell;
@@ -2869,7 +2869,7 @@ vertical-align: top;}
           font-weight: bold;
           line-height: 1.5; }
           .pageMemberRegi .meritBox ol > li h4 > *.txt em {
-            color: #27ae44; }
+            color: #fd806e; }
     .pageMemberRegi .meritBox ol > li .img {
       padding: 0 15px;
       margin-bottom: 15px; }

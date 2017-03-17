@@ -151,9 +151,9 @@
       margin: 0;
       padding-bottom: 10px;
       font-size: 24px;
-      border-bottom: 1px solid #2fb464; }
+      border-bottom: 1px solid #ff6551; }
       .mapBlock .mapTxtBox h2 i {
-        color: #2fb464;
+        color: #ff6551;
         font-size: 200%;
         margin-right: 15px; }
       .mapBlock .mapTxtBox h2 span {
@@ -357,7 +357,7 @@
   width: 100%; }
   #modalInner em.btnClose {
     display: block;
-    background: #2fb464;
+    background: #ff6551;
     color: #FFF;
     font-size: 30px;
     font-weight: bold;
@@ -365,7 +365,7 @@
     padding: 3px 5px 3px 5px;
     line-height: 1em;
     border-radius: 30px;
-    border: 3px solid #2fb464;
+    border: 3px solid #ff6551;
     position: absolute;
     right: -30px;
     top: -30px;
