@@ -197,6 +197,7 @@ header {
 
 /* 中身 */
 .content {
+	background-color: #fefeed;
   padding: 0px 0 70px; }
   @media screen and (max-width: 767px) {
     .content {
@@ -702,6 +703,8 @@ i[class|="icn"] {
   background-image: url(../img/icn_map_square.png); }
 .icn-srchHouse1 {
   background-image: url(../img/icn_srch_house.png); }
+.icn-present1 {
+  background-image: url(../img/icn_present.png); }
 
 .icn_txt {
   display: inline-block;
@@ -1712,6 +1715,7 @@ vertical-align: top;}
       top: 4px;
       right: 10px; } }
 
+
 /* etc */
 .stars {
   display: table; }
@@ -1838,6 +1842,47 @@ vertical-align: top;}
     .stars.sz7 > dd {
       font-size: 18px;
       padding-left: 0; } }
+
+.teibanBox{
+	margin-top: -6px;
+	padding: 6px 0;
+	position: relative;
+	z-index: 1;
+}
+	.teibanBox:before,
+	.teibanBox:after{
+		content: "";
+		display: block;
+		background-position: center top;
+		background-repeat: repeat-x;
+		width: 100%;
+		height: 6px;
+		position: absolute;
+		left: 0;
+	}
+		.teibanBox:before{
+			background-image: url(../img/teiban_bg_b.png);
+			top: 0;
+		}
+		.teibanBox:after{
+			background-image: url(../img/teiban_bg_t.png);
+			bottom: 0;
+		}
+.teibanBox .in{
+	background:url(../img/teiban_bg_bd.png) 0 0 repeat;
+	padding-bottom: 20px;
+}
+.teibanBox .ttlBox1{
+	background: none;
+}
+.teibanBox .ttlBox1 .ttl > span em{
+	color: #fff;
+}
+.teibanBox .ttlBox1 .ttl > span span{
+	margin-left: 15px;
+	color: #fff;
+	font-size: 18px;
+}
 
 .aveUniPrice .boxes {
   margin-bottom: 20px; }
@@ -2811,12 +2856,11 @@ vertical-align: top;}
     text-shadow: 1px 1px 2px rgba(2, 137, 224, 0.9); }
 @media screen and (max-width: 1200px) {
   .pagePref .content {
-  background: url(../img/pref_bg.png) center 0px no-repeat;}
+  }
 }
 @media screen and (max-width: 767px) {
   .pagePref .content {
-    background: url(../img/sp_pref_bg.png) center top no-repeat;
-    background-size: 100% auto; } }
+    } }
 
 /* 都道府県TOP */
 /* 都道府県TOP */
