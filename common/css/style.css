@@ -51,7 +51,6 @@ button {
 -----------------------*/
 /* ヘッダー */
 header {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1; }
   header .hdTop {
@@ -2807,8 +2806,7 @@ vertical-align: top;}
 
 /* 都道府県TOP */
 .pagePref .content {
-  background: url(../img/pref_bg.png) center -150px no-repeat;
-  background-size: 100% auto; }
+  }
   .pagePref .content .ttlBox2 .ttl, .pagePref .content .ttlBox2 > p {
     text-shadow: 1px 1px 2px rgba(2, 137, 224, 0.9); }
 @media screen and (max-width: 1200px) {
