@@ -66,13 +66,13 @@
   vertical-align: bottom; }
 
 /* テキスト色 */
-.txGrn1 {
+.txOrange1 {
   color: #ff6551; }
 
-.txGrn2 {
+.txOrange2 {
   color: #fd806e; }
 
-.txGrn3 {
+.txOrange3 {
   color: #da3a26; }
 
 .txGrn4 {
@@ -81,8 +81,11 @@
 .txGrn5 {
   color: #199a35; }
 
-.txOrng1 {
-  color: #ff6551; }
+.txGreen1 {
+  color: #2fb464; }
+
+.txGreen2 {
+  color: #00b763; }
 
 .txRed1 {
   color: #bc0000; }
