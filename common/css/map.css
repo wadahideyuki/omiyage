@@ -37,26 +37,26 @@
           width: 100%; }
       .main > .container .mainColR .mainSearch {
         background:url(../img/main_srch_bg.png) 0 0 no-repeat;
-				width: 331px;
-				height: 144px;
-        padding: 20px 10px 20px 15px;
+				background-size: contain;
+        padding: 25px 30px 21px 30px;
         border-radius: 5px; }
         .main > .container .mainColR .mainSearch dt {
           display: table;
           width: 100%;
-          margin-bottom: 20px;
+          margin-bottom: 24px;
           color: #705757;
           font-size: 16px;
           font-weight: normal;
           line-height: 1.27; }
           .main > .container .mainColR .mainSearch dt > * {
             display: table-cell;
-            vertical-align: top; }
+            vertical-align: bottom; }
           .main > .container .mainColR .mainSearch dt i {
-            padding-right: 10px;
-            font-size: 200%; }
+            width: 30px;
+						height: 30px;}
+          .main > .container .mainColR .mainSearch dt span {
+            padding-left: 10px;}
         .main > .container .mainColR .mainSearch dd {
-          padding:0 30px;
           position: relative; }
           .main > .container .mainColR .mainSearch dd input {
             padding: 14px 40px 14px 13px;
@@ -65,32 +65,41 @@
 						color: #00b763;
             position: absolute;
             top: 10px;
-            right: 40px; }
+            right: 15px; }
   @media screen and (max-width: 1199px) {
     .main > .container .mainColR {
       width: 290px; }
+      .main > .container .mainColR .mainSearch{
+				padding:24px 25px 22px 25px;
+			}
       .main > .container .mainColR .mainSearch dt {
-        margin-bottom: 15px;
-        font-size: 15px; } }
+        margin-bottom: 17px;
+        font-size: 14px; }
+          .main > .container .mainColR .mainSearch dt i {
+            width: 25px;
+						height: 25px;}
+		 }
   @media screen and (max-width: 991px) {
     .main > .container {
       width: auto;
       max-width: none;
       padding: 0; }
       .main > .container .mainColR {
-        background-color: rgba(0, 0, 0, 0.6);
+				background:url(../img/sp_main_srch_bg.png) 0 0 repeat-x;
+				background-size: auto 100%;
         width: auto;
         position: static; }
         .main > .container .mainColR .bn1 {
           display: none; }
         .main > .container .mainColR .mainSearch {
-          background-color: transparent;
+					background: none;
           display: table;
           margin: auto;
+					padding:15px 25px 22px 25px;
           border-radius: 0px; }
           .main > .container .mainColR .mainSearch dt {
             display: table-cell;
-            width: 270px;
+            width: 240px;
             margin-bottom: 0px;
             vertical-align: middle; }
             .main > .container .mainColR .mainSearch dt > * {
@@ -100,17 +109,22 @@
             padding-right: 0px;
             vertical-align: middle; }
             .main > .container .mainColR .mainSearch dd ::-webkit-input-placeholder {
-              padding-top: 4px; } }
+              padding-top: 4px; }
+}
   @media screen and (max-width: 767px) {
     .main {
-      background-size: contain; }
+      }
+      .main > .container .mainColR {
+				background-color: #f0f0f0;
+				background-size: auto 80%;
+			}
       .main > .container .mainColR .mainSearch {
         display: block;
-        padding: 6px 10px 12px; }
+        padding: 9px 10px 20px; }
         .main > .container .mainColR .mainSearch dt {
           display: table;
           width: auto;
-          margin-bottom: 10px;
+          margin-bottom: 20px;
           font-size: 12px;
           vertical-align: middle; }
           .main > .container .mainColR .mainSearch dt > * {
@@ -142,7 +156,7 @@
     height: 100%;
     position: absolute;
     top: 0px;
-    right: 0px; }
+    right: 20px; }
   .mapBlock .mapImg {
     position: absolute;
     top: 42px;
@@ -161,7 +175,6 @@
         font-size: 200%;
         margin-right: 15px; }
       .mapBlock .mapTxtBox h2 span {
-        margin-right: -10px;
         line-height: 1.2; }
   .mapBlock .fukidashi {
     background-color: #fff;
@@ -231,7 +244,7 @@
       height: 500px;
       margin: auto; }
       .mapBlock .mapImgBg {
-        top: 18px; }
+        }
       .mapBlock .mapImg {
         top: 32px; }
       .mapBlock .mapTxtBox h2 {
@@ -276,17 +289,18 @@
       height: 320px;
       z-index: 9998; }
       .mapBlock .mapImgBg {
-        background-position: center 15px;
+        background-position: center center;
         background-size: contain;
         width: auto;
         top: 0;
-        left: 0; }
+        left: 5px;
+				right:5px;}
       .mapBlock .mapImg {
         width: 300px;
         top: 22px;
         left: 10px; }
       .mapBlock .mapTxtBox {
-        left: 15px; }
+        left: 20px; }
         .mapBlock .mapTxtBox h2 {
           font-size: 13px; }
           .mapBlock .mapTxtBox h2 i {
