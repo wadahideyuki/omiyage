@@ -972,8 +972,7 @@ button.btn {
     padding: 0 10px;
     color: #fd806e;
     font-size: 11px;
-    line-height: 17px;
-    border: 1px solid #fd806e; }
+    line-height: 19px; }
   .lbl.type2 {
     background-color: #666;
     padding: 3px 20px 0px;
@@ -1185,20 +1184,27 @@ button.btn {
 		padding: 0px;
       font-size: 14px; } }
 
+.list3{
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+}
 .list3 > .ttl {
-  background-color: #9b8989;
+  background-color: #e7e2e2;
   margin: 0;
   padding: 8px 10px 6px;
-  color: #fff;
-  font-size: 16px;
-  border-radius: 2px; }
+  color: #705757;
+  font-size: 18px;
+  border-radius: 5px 5px 0 0; }
 .list3 > ul li {
-  border-bottom: 1px solid #ccc; }
+	}
   .list3 > ul li a {
     display: table;
     table-layout: fixed;
     width: 100%;
     padding: 15px 0; }
+		.list3 > ul li + li a {
+				border-top: 1px dotted #ccc;
+			}
     .list3 > ul li a > * {
       display: table-cell;
       vertical-align: middle; }
@@ -2016,7 +2022,7 @@ vertical-align: top;}
   .comments1 .fukidasi {
     padding-left: 15px; }
     .comments1 .fukidasi > div {
-      background-color: #fff5e5;
+      background-color: #eee;
       padding: 20px 25px;
       border-radius: 5px;
       border: 1px solid #989898;
