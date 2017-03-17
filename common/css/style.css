@@ -1381,13 +1381,13 @@ button.btn {
     display: block;
     color: #666;
     font-size: 12px; }
-  .list5 ul li > a .imgs {
+  .list5 ul li  .imgs {
     background-color: #faf8f5;
     width: 30%;
     padding-left: 5%;
     text-align: center;
     float: right; }
-    .list5 ul li > a .imgs .img {
+    .list5 ul li  .imgs .img {
       height: 135px;
       margin-bottom: 10px; }
 @media screen and (max-width: 991px) {
@@ -1403,10 +1403,10 @@ button.btn {
         margin-bottom: 10px; }
       .list5 ul li > a .txts .info strong {
         margin-left: 0px; }
-    .list5 ul li > a .imgs {
+    .list5 ul li  .imgs {
       width: 32%;
       padding-left: 4%; }
-      .list5 ul li > a .imgs .img + .lbl {
+      .list5 ul li  .imgs .img + .lbl {
         margin-bottom: 10px; } }
 @media screen and (max-width: 767px) {
   .list5 ul li > a {
@@ -1419,12 +1419,12 @@ button.btn {
         font-size: 15px; }
       .list5 ul li > a .txts .info {
         margin-bottom: 10px; }
-    .list5 ul li > a .imgs {
+    .list5 ul li  .imgs {
       width: auto;
       margin-bottom: 10px;
       padding-left: 0;
       float: none; }
-      .list5 ul li > a .imgs .img + .lbl {
+      .list5 ul li  .imgs .img + .lbl {
         margin-bottom: 0; } }
 
 .list6 {
@@ -2426,7 +2426,7 @@ vertical-align: top;}
             padding-top: 1px;
             color: #000;
             font-size: 12px; }
-            .tabBox1 .cont > li > .partProf > .celTxts .starTxt > small em {
+            small em {
               color: #a00; }
       .tabBox1 .cont > li .partTxt {
         margin-bottom: 10px;
