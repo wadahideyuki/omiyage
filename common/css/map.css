@@ -120,7 +120,7 @@
 			}
       .main > .container .mainColR .mainSearch {
         display: block;
-        padding: 9px 10px 20px; }
+        padding: 9px 10px 10px; }
         .main > .container .mainColR .mainSearch dt {
           display: table;
           width: auto;
@@ -163,8 +163,8 @@
     left: 62px; }
   .mapBlock .mapTxtBox {
     position: absolute;
-    left: 35px;
-    top: 60px; }
+    left: 40px;
+    top: 100px; }
     .mapBlock .mapTxtBox h2 {
       margin: 0;
       padding-bottom: 10px;
