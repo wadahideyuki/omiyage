@@ -113,6 +113,8 @@
   position: static; }
 
 /* 線 */
+.BDN {
+  border: none;}
 .BB1 {
   border-bottom: 1px solid #fff; }
 

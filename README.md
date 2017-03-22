@@ -1,2 +1,0 @@
-# omiyage
-omiyage
