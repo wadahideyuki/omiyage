@@ -26,794 +26,813 @@
 <script src="../common/js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-<div class="wrap pagePref"> 
+<div class="wrap pageRank"> 
   
-  <!-- HEADER -->
-  <header>
-    <div class="hdTop">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="fltL">
-              <h1 class="logo"><a href=""><img src="../common/img/logo.png" alt="オミコレ"></a></h1>
-              <p>マイホーム関連の口コミ<em>655</em>件を掲載中</p>
-            </div>
-            <div class="fltR"> <span class="userName"> </span>
-              <ul class="hdBtns">
-                <li class="spNone"><a href="../auth/login"><i class="fa fa-angle-right txOrange1 PR5 fz130P"></i>会員ログイン</a></li>
-                <li class="spNone"><a href="../auth/register"><i class="fa fa-angle-right txOrange1 PR5 fz130P"></i>初めての方</a></li>
-                <li class="spBlk"><a class="btn type1 clr1" href="http://omi-cole.jp/comment_post"><i class="fa fa-comment PR10"></i>口コミを投稿する</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.hdTop -->
-    <div class="hdBtm">
-      <div class="container">
-        <div class="row">
-          <nav class="col-lg-8 col-md-9">
-            <ul>
-              <li class="hdNav1"><a href="">TOP</a></li>
-              <li class="hdNav2"><a href="../area">エリアから探す</a></li>
-              <li class="hdNav3"><a href="../ranking">ランキングから探す</a></li>
-              <li class="hdNav4"><a href="../exhibition">展示場を探す</a></li>
-              <li class="hdNav5"><a href="../column/manual">マイホーム準備マニュアル</a></li>
-            </ul>
-          </nav>
-          <div class="searchWrap col-lg-4 col-md-3">
-            <div class="searchBox">
-              <form action="/search" method="get">
-                <input type="text" name="keyword" class="iptType1" placeholder="工務店・ハウスメーカ・展示場を検索">
-                <button type="submit" class="fa fa-search txGrn1 fz19"></button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.hdBtm --> 
-    <a href="#" class="btnMenu"><i class="fa fa-list-alt"></i>menu</a> </header>
-  <div class="content"> 
+<!-- HEADER -->
+<header>
+	<div class="hdTop">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+						<div class="fltL">
+						<h1 class="logo"><a href="../index.html"><img src="../common/img/logo.png" alt="オミコレ"></a></h1>
+						<p>全国のお土産の口コミ<em>000000</em>件を掲載中</p>
+					</div>
+					<div class="fltR">
+						<ul class="hdBtns">
+							<li class="spNone"><a href="#"><i class="fa fa-angle-right txOrange1 PR5 fz130P"></i>会員ログイン</a></li>
+							<li class="spNone"><a href="#"><i class="fa fa-angle-right txOrange1 PR5 fz130P"></i>初めての方</a></li>
+							<li class="spBlk"><a class="btn type1 clr1" href="../okayama/omiyage/comment/detail/1/kutikomiregi.html"><i class="fa fa-comment PR10"></i>口コミを投稿する</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- /.hdTop -->
+	<div class="hdBtm">
+		<div class="container">
+			<div class="row">
+				<nav class="col-lg-8 col-md-9">
+					<ul>
+						<li class="hdNav1"><a href="../index.html">トップ</a></li>
+						<li class="hdNav2"><a href="../okayama/index.html">エリアで探す</a></li>
+						<li class="hdNav3"><a href="#">ランキングで探す</a></li>
+						<li class="hdNav4"><a href="../clasic/kibidango/index.html">定番お土産</a></li>
+						<li class="hdNav6 spNav"><a href="#">会員ログイン</a></li>
+						<li class="hdNav7 spNav"><a href="#">初めての方</a></li>
+					</ul>
+				</nav>
+				<div class="searchWrap col-lg-4 col-md-3">
+					<div class="searchBox">
+						<input type="text" class="iptType1" placeholder="お土産の名前を入力">
+						<button type="submit" class="fa fa-search txGreen1 fz19"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- /.hdBtm -->
+	<a href="#" class="btnMenu"><i class="fa fa-list-alt"></i>menu</a>
+</header>
+
+
+<!-- CONTENTS -->
+<div class="content">
+	<!-- BREADCRUMBS -->
+	<div class="pankz clr2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="" itemprop="url"><span itemprop="title">オミコレ</span></a></span> ＞<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../okayama" itemprop="url"><span itemprop="title">岡山</span></a></span></div>
+			</div>
+		</div>
+	</div>
     
-    <!-- BREADCRUMBS -->
-    <div class="pankz clr2">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="" itemprop="url"><span itemprop="title">オミコレ</span></a></span> ＞<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../okayama" itemprop="url"><span itemprop="title">岡山</span></a></span></div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- CONTENTS -->
-    <div class="content">
-      <div class="container">
-        <div class="row"> 
-          <!-- 左列 -->
-          <div class="colL col-md-9 col-sm-8">
-            <section class="sect type2">
-              <div class="ttlBox1">
-                <h2 class="ttl"><span class="icn_txt"><em>ランキング </em><span>岡山県の人気のお土産をランキング</span></span></h2>
-              </div>
-              <div class="ranking1">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="ttl"><span>評価の高いお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>口コミ数の多いお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>女性に人気のお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>男性に人気のお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>貰った評価の高いお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>贈った評価の高いお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>家族へ最適なお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="ttl"><span>ビジネスに最適なお土産</span></div>
-                    <ul class="list">
-                      <li class="rank1"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank2"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank3"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank4"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                      <li class="rank5"> <a href="#">
-                        <div class="img">
-                          <div>
-                            <div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
-                          </div>
-                        </div>
-                        <div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
-                            <dl class="stars sz5">
-                              <dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                              <dd>4.0</dd>
-                            </dl>
-                          </div>
-                        </div>
-                        </a> </li>
-                    </ul>
-                    <div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txGrn5 PR15 fz130P"></i>もっと見る </a> </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <!-- /左列 --> 
-          
-          <!-- 右列 -->
-          <div class="colR col-md-3 col-sm-4">
-            <section class="sect type3">
-              <div class="list3">
-                <h2 class="ttl">最近見たお土産</h2>
-                <ul>
-                  <li> <a href="tokushima/company/detail/46"> <span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
-                    <div>
-                      <p>きび団子</p>
-                      <dl class="stars sz2">
-                        <dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                        <dd>5.0</dd>
-                      </dl>
-                    </div>
-                    </a> </li>
-                  <li> <a href="tokushima/company/detail/46"> <span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
-                    <div>
-                      <p>きび団子</p>
-                      <dl class="stars sz2">
-                        <dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                        <dd>5.0</dd>
-                      </dl>
-                    </div>
-                    </a> </li>
-                  <li> <a href="tokushima/company/detail/46"> <span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
-                    <div>
-                      <p>きび団子</p>
-                      <dl class="stars sz2">
-                        <dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                        <dd>5.0</dd>
-                      </dl>
-                    </div>
-                    </a> </li>
-                  <li> <a href="tokushima/company/detail/46"> <span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
-                    <div>
-                      <p>きび団子</p>
-                      <dl class="stars sz2">
-                        <dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
-                        <dd>5.0</dd>
-                      </dl>
-                    </div>
-                    </a> </li>
-                </ul>
-              </div>
-              <!-- /.list3 --> 
-            </section>
-          </div>
-          
-          <!-- /右列 --> 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- FOOTER -->
-  <footer>
-    <div class="ftLinks">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <nav>
-              <div class="colNo1">
-                <h2><i class="fa fa-home fz110P MR5"></i><span>ハウスメーカ、工務店を探す</span></h2>
-                <ul>
-                  <li><a href="../ranking"><i class="fa fa-angle-right PR5 fz130P"></i>ランキングで探す</a></li>
-                  <li><a href="../area"><i class="fa fa-angle-right PR5 fz130P"></i>ハウスメーカーを探す</a></li>
-                  <li><a href="../exhibition"><i class="fa fa-angle-right PR5 fz130P"></i>住宅展示場を探す</a></li>
-                </ul>
-              </div>
-              <div class="colNo2">
-                <h2><i class="fa fa-comment"></i><span>口コミを探す</span></h2>
-                <ul>
-                  <li><a href="../#"><i class="fa fa-angle-right PR5 fz130P"></i>都道府県から探す</a></li>
-                  <li><a href="../#"><i class="fa fa-angle-right PR5 fz130P"></i>マイホーム体験談</a></li>
-                  <li><a href="../#"><i class="fa fa-angle-right PR5 fz130P"></i>我が家自慢インタビュー</a></li>
-                </ul>
-              </div>
-              <div class="colNo3">
-                <h2><i class="icn-map1 W160em H160em MR5 ML3"></i><span class="icn_txt"><span>建売・土地を探す</span></span></h2>
-                <ul>
-                  <li><a href="../#"><i class="fa fa-angle-right PR5 fz130P"></i>新築住宅を検索する</a></li>
-                  <li><a href="../#"><i class="fa fa-angle-right PR5 fz130P"></i>中古住宅を検索する</a></li>
-                </ul>
-              </div>
-              <div class="colNo4">
-                <ul>
-                  <li><a href="../page/privacy"><i class="fa fa-angle-right PR5 fz130P"></i>プライバシーポリシー</a></li>
-                  <li><a href="../page/sitepolicy"><i class="fa fa-angle-right PR5 fz130P"></i>サイトポリシー</a></li>
-                  <li><a href="../page/contact"><i class="fa fa-angle-right PR5 fz130P"></i>問い合わせ</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="copyRight">&copy; オミコレ 2016</div>
-  </footer>
-  <!-- JS FOOTER --> 
-  
+	<div class="container">
+		<div class="row"> 
+			<!-- 左列 -->
+			<div class="colL col-md-9 col-sm-8">
+				<section class="sect type2">
+					<div class="ttlBox1 type2">
+						<h2 class="ttl"><i class="icn-crown2 W130em H130em"></i><span class="icn_txt"><em>ランキング </em><span>岡山県の人気のお土産をランキング</span></span></h2>
+					</div>
+
+					<div class="ranking1">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="ttl"><span>評価の高いお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i>
+											<p>0000万円</p>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i>
+											<p>0000万円</p>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i>
+											<p>0000万円</p>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i>
+											<p>0000万円</p>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i>
+											<p>0000万円</p>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="ttl"><span>口コミ数の多いお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="ttl"><span>女性に人気のお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="ttl"><span>男性に人気のお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="ttl"><span>貰った評価の高いお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="ttl"><span>贈った評価の高いお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="ttl"><span>家族へ最適なお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="ttl"><span>ビジネスに最適なお土産</span></div>
+								<ul class="list">
+									<li class="rank1"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank1">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank2"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/300x150.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank2">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank3"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank3">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank4"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank4">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+									<li class="rank5"> <a href="#">
+										<div class="img">
+											<div>
+												<div class="imgCMBox"><span><img src="http://placehold.jp/150x300.png" alt="#"></span></div>
+											</div>
+										</div>
+										<div class="txt"> <i class="icnBg-rank5">商品名</i> <div>
+												<dl class="stars sz5">
+													<dt class="star4"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+													<dd>4.0</dd>
+												</dl>
+											</div>
+										</div>
+										</a> </li>
+								</ul>
+								<div class="text-center"> <a class="btn type8 clr3 dsB show_child_button MT10" href="http://min-myhome.jp/akita/ranking/company/branch_level3_ave"> <i class="fa fa-angle-right txOrange1 PR15 fz130P"></i>もっと見る </a> </div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- /左列 --> 
+
+		<!-- 右列 -->
+		<div class="colR col-md-3 col-sm-4">
+			<section class="sect type3">
+				<div class="list3">
+					<h2 class="ttl">岡山県ゆかりのお土産</h2>
+					<ul>
+						<li>
+							<a href="tokushima/company/detail/46">
+								<div class="in">
+									<span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
+									<div>
+										<p>きび団子</p>
+										<dl class="stars sz2">
+											<dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+											<dd>5.0</dd>
+										</dl>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="tokushima/company/detail/46">
+								<div class="in">
+									<span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
+									<div>
+										<p>きび団子</p>
+										<dl class="stars sz2">
+											<dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+											<dd>5.0</dd>
+										</dl>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="tokushima/company/detail/46">
+								<div class="in">
+									<span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
+									<div>
+										<p>きび団子</p>
+										<dl class="stars sz2">
+											<dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+											<dd>5.0</dd>
+										</dl>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="tokushima/company/detail/46">
+								<div class="in">
+									<span class="img"><img src="http://placehold.jp/80x80.png" onerror="this.src='/images/not-found.png';" alt="クレバリーホーム"></span>
+									<div>
+										<p>きび団子</p>
+										<dl class="stars sz2">
+											<dt class="star5"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </dt>
+											<dd>5.0</dd>
+										</dl>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.list3 --> 
+			</section>
+		</div>
+		<!-- /右列 -->
+		</div>
+	</div>
 </div>
-<!--//.wrap--> 
+
+<!-- FOOTER -->
+<footer>
+	<div class="ftLinks">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav>
+						<div class="colNo1">
+							<h2><i class="icn-check1 W160em H160em MR5 ML3"></i><span class="icn_txt"><span>定番のお土産</span></span></h2>
+							<ul>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+							</ul>
+							<ul>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>お土産の名前がはいる</a></li>
+							</ul>
+						</div>
+						<div class="colNo2">
+							<h2><i class="icn-crown1 W160em H160em MR5 ML3"></i><span class="icn_txt"><span>お土産のランキング</span></span></h2>
+							<ul>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>評価の高いお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>口コミ数の多いお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>女性に人気のお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>男性に人気のお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>貰った評価の高いお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>贈った評価の高いお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>家族へ最適なお土産</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>ビジネスに最適なお土産</a></li>
+							</ul>
+						</div>
+						<div class="colNo3">
+							<ul>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>プライバシーポリシー</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>サイトポリシー</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>会社概要</a></li>
+								<li><a href="./#"><i class="fa fa-angle-right PR5 fz130P"></i>問い合わせ</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyRight">&copy; オミコレ 2016</div>
+</footer>
+</div><!--//.wrap--> 
 
 <!-- BooSt用JS --> 
 <script src="../common/js/bootstrap.min.js"></script> 
