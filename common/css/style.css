@@ -3024,6 +3024,9 @@ vertical-align: top;}
         color: #a00;
         font-size: 21px;
         font-weight: bold; }
+      .ranking1 .list > li > a > .txt .stars dt{
+				white-space: nowrap
+			}
       .ranking1 .list > li > a > .txt .stars i {
         margin-bottom: 0; }
 @media screen and (max-width: 991px) {
@@ -3147,7 +3150,7 @@ vertical-align: top;}
       padding: 15px; }
     .kutiRegiBox > ul li > *.cellForm .gMap{
 				display: block;
-				margin-right: 0;
+				margin:0 0 5px 0;
 			}
     .kutiRegiBox > ul li > *.cellForm .gMap + div{
 				display: block;
@@ -3163,7 +3166,7 @@ vertical-align: top;}
 				display: inline-block;
 				background-color: transparent;
 				width: 33.3333%;
-				padding: 10px 0 10px;
+				padding: 10px 0;
 				letter-spacing: normal;
 				border-bottom: none;
 			}
@@ -3179,8 +3182,15 @@ vertical-align: top;}
   .kutiRegiBox > div button {
     width: 350px; }
 @media screen and (max-width: 991px) {
+      .kutiRegiBox > ul li > *.cellTtl{
+        width: 180px;}
+      .kutiRegiBox > ul li > *.cellTtl h3 {
+        font-size: 14px; }
   .kutiRegiBox > ul li > *.cellForm > div {
     margin-right: 20px; }
+			.kutiRegiBox > ul li > *.cellForm .starRateBox > li{
+				width: 50%;
+			}
   .kutiRegiBox > div button {
     width: 300px; } }
 @media screen and (max-width: 767px) {
@@ -3195,8 +3205,20 @@ vertical-align: top;}
         margin-bottom: 10px; }
       .kutiRegiBox > ul li > *.cellForm > div {
         margin-right: 10px; }
+			.kutiRegiBox > ul li > *.cellForm .starRateBox > li{
+				width: 100%;
+				padding: 5px 0;
+			}
+			.kutiRegiBox > ul li > *.cellForm .starRateBox > li > *{
+				display: inline-block;
+			}
+			.kutiRegiBox > ul li > *.cellForm .starRateBox > li > p{
+				width: 75px;
+				padding: 0;
+			}
   .kutiRegiBox > div button {
-    width: 100%; } }
+    width: 100%; }
+}
 
 .chartBox .txts > ul {
   border-top: 1px solid #ccc;
@@ -3334,8 +3356,68 @@ vertical-align: top;}
 	background-size: cover;
 	margin-bottom: 35px;
 	padding: 140px 0;
+	position: relative;
 }
-	.pagePref.prefTop .prefMain.is_okayama{background-image: url(../img/pref_main_okayama.png);}
+	.pagePref.prefTop .prefMain.prefNo_01{background-image: url(../img/pref_main_01.png);}/* 北海道 */
+	.pagePref.prefTop .prefMain.prefNo_02{background-image: url(../img/pref_main_02.png);}/* 青森県 */
+	.pagePref.prefTop .prefMain.prefNo_03{background-image: url(../img/pref_main_03.png);}/* 岩手県 */
+	.pagePref.prefTop .prefMain.prefNo_04{background-image: url(../img/pref_main_04.png);}/* 宮城県 */
+	.pagePref.prefTop .prefMain.prefNo_05{background-image: url(../img/pref_main_05.png);}/* 秋田県 */
+	.pagePref.prefTop .prefMain.prefNo_06{background-image: url(../img/pref_main_06.png);}/* 山形県 */
+	.pagePref.prefTop .prefMain.prefNo_07{background-image: url(../img/pref_main_07.png);}/* 福島県 */
+	.pagePref.prefTop .prefMain.prefNo_08{background-image: url(../img/pref_main_08.png);}/* 茨城県 */
+	.pagePref.prefTop .prefMain.prefNo_09{background-image: url(../img/pref_main_09.png);}/* 栃木県 */
+	.pagePref.prefTop .prefMain.prefNo_10{background-image: url(../img/pref_main_10.png);}/* 群馬県 */
+	.pagePref.prefTop .prefMain.prefNo_11{background-image: url(../img/pref_main_11.png);}/* 埼玉県 */
+	.pagePref.prefTop .prefMain.prefNo_12{background-image: url(../img/pref_main_12.png);}/* 千葉県 */
+	.pagePref.prefTop .prefMain.prefNo_13{background-image: url(../img/pref_main_13.png);}/* 東京都 */
+	.pagePref.prefTop .prefMain.prefNo_14{background-image: url(../img/pref_main_14.png);}/* 神奈川県 */
+	.pagePref.prefTop .prefMain.prefNo_15{background-image: url(../img/pref_main_15.png);}/* 新潟県 */
+	.pagePref.prefTop .prefMain.prefNo_16{background-image: url(../img/pref_main_16.png);}/* 富山県 */
+	.pagePref.prefTop .prefMain.prefNo_17{background-image: url(../img/pref_main_17.png);}/* 石川県 */
+	.pagePref.prefTop .prefMain.prefNo_18{background-image: url(../img/pref_main_18.png);}/* 福井県 */
+	.pagePref.prefTop .prefMain.prefNo_19{background-image: url(../img/pref_main_19.png);}/* 山梨県 */
+	.pagePref.prefTop .prefMain.prefNo_20{background-image: url(../img/pref_main_20.png);}/* 長野県 */
+	.pagePref.prefTop .prefMain.prefNo_21{background-image: url(../img/pref_main_21.png);}/* 岐阜県 */
+	.pagePref.prefTop .prefMain.prefNo_22{background-image: url(../img/pref_main_22.png);}/* 静岡県 */
+	.pagePref.prefTop .prefMain.prefNo_23{background-image: url(../img/pref_main_23.png);}/* 愛知県 */
+	.pagePref.prefTop .prefMain.prefNo_24{background-image: url(../img/pref_main_24.png);}/* 三重県 */
+	.pagePref.prefTop .prefMain.prefNo_25{background-image: url(../img/pref_main_25.png);}/* 滋賀県 */
+	.pagePref.prefTop .prefMain.prefNo_26{background-image: url(../img/pref_main_26.png);}/* 京都府 */
+	.pagePref.prefTop .prefMain.prefNo_27{background-image: url(../img/pref_main_27.png);}/* 大阪府 */
+	.pagePref.prefTop .prefMain.prefNo_28{background-image: url(../img/pref_main_28.png);}/* 兵庫県 */
+	.pagePref.prefTop .prefMain.prefNo_29{background-image: url(../img/pref_main_29.png);}/* 奈良県 */
+	.pagePref.prefTop .prefMain.prefNo_30{background-image: url(../img/pref_main_30.png);}/* 和歌山県 */
+	.pagePref.prefTop .prefMain.prefNo_31{background-image: url(../img/pref_main_31.png);}/* 鳥取県 */
+	.pagePref.prefTop .prefMain.prefNo_32{background-image: url(../img/pref_main_32.png);}/* 島根県 */
+	.pagePref.prefTop .prefMain.prefNo_33{background-image: url(../img/pref_main_33.png);}/* 岡山県 */
+	.pagePref.prefTop .prefMain.prefNo_34{background-image: url(../img/pref_main_34.png);}/* 広島県 */
+	.pagePref.prefTop .prefMain.prefNo_35{background-image: url(../img/pref_main_35.png);}/* 山口県 */
+	.pagePref.prefTop .prefMain.prefNo_36{background-image: url(../img/pref_main_36.png);}/* 徳島県 */
+	.pagePref.prefTop .prefMain.prefNo_37{background-image: url(../img/pref_main_37.png);}/* 香川県 */
+	.pagePref.prefTop .prefMain.prefNo_38{background-image: url(../img/pref_main_38.png);}/* 愛媛県 */
+	.pagePref.prefTop .prefMain.prefNo_39{background-image: url(../img/pref_main_39.png);}/* 高知県 */
+	.pagePref.prefTop .prefMain.prefNo_40{background-image: url(../img/pref_main_40.png);}/* 福岡県 */
+	.pagePref.prefTop .prefMain.prefNo_41{background-image: url(../img/pref_main_41.png);}/* 佐賀県 */
+	.pagePref.prefTop .prefMain.prefNo_42{background-image: url(../img/pref_main_42.png);}/* 長崎県 */
+	.pagePref.prefTop .prefMain.prefNo_43{background-image: url(../img/pref_main_43.png);}/* 熊本県 */
+	.pagePref.prefTop .prefMain.prefNo_44{background-image: url(../img/pref_main_44.png);}/* 大分県 */
+	.pagePref.prefTop .prefMain.prefNo_45{background-image: url(../img/pref_main_45.png);}/* 宮崎県 */
+	.pagePref.prefTop .prefMain.prefNo_46{background-image: url(../img/pref_main_46.png);}/* 鹿児島県 */
+	.pagePref.prefTop .prefMain.prefNo_47{background-image: url(../img/pref_main_47.png);}/* 沖縄県 */
+.pagePref.prefTop .prefMain:before{
+	content: "";
+	display: block;
+	background:url(../img/bg_dot_1.png) 0 0 repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pagePref.prefTop .prefMain .container{
+	position: relative;
+}
 .pagePref.prefTop .prefMain .ttl{
 	color: #fff;
 	font-size: 33px;
