@@ -6,7 +6,7 @@
   height: 30px;
   overflow: hidden;
   position: relative;
-  background: url('../img/star.svg');
+  background: url('../img/star.png');
   fill: #42AFE3; 
   background-size: contain;
 	cursor: pointer;
@@ -19,7 +19,7 @@
   height: 100%;
   width: 20%;
   z-index: 1;
-  background: url('../img/star2.svg');
+  background: url('../img/star2.png');
   fill: #42AFE3; 
   background-size: contain;
 }
