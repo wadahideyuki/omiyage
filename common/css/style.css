@@ -3349,6 +3349,7 @@ vertical-align: top;}
 	width: 100%;
 	position: absolute;
 	left: 0;
+	z-index: 1;
 }
 .pagePref.prefTop .prefMain{
 	background-position: center center;
