@@ -977,6 +977,17 @@ i[class^="icnBg-rank"] {
     @media screen and (max-width: 991px) {
       .btn.type8 {
         font-size: 22px; } }
+
+  .btn.type9 {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 18px;
+    border-radius: 5px; }
+    @media screen and (max-width: 991px) {
+      .btn.type8 {
+        font-size: 16px; } }
+
+
   .btn.clr1 {
     background-color: #0aba69;
     color: #fff;
@@ -1024,13 +1035,13 @@ button.btn {
   width: 100%; }
 
 .btnS1 {
-  background-color: #4c3030;
+  background-color: #EEE;
   height: 32px;
   padding: 0px 16px;
   color: #fefeed !important;
   font-size: 14px;
   line-height: 32px;
-  border: 1px solid #ccc;
+  border: 1px solid #705757;
   border-radius: 50px; }
   .btnS1:hover {
     opacity: 0.8; }
@@ -1081,7 +1092,7 @@ button.btn {
 	padding: 0;
 }
 .btnSlctWrap.is_bgArw1{
-	background-image: url(../img/arw_r1.png);
+	background-image: url(../img/arw_r2.png);
 	background-position: 16px center;
 	background-repeat: no-repeat;
 }
@@ -1090,10 +1101,13 @@ button.btn {
 	background-color: transparent;
 	height: 100%;
 	padding: 0 16px 0 26px;
-	color:inherit;
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
+	color: #705757;
+}
+.btnSlctWrap select option{
+	
 }
   @media screen and (max-width: 991px) {
 		.btnSlctWrap.is_bgArw1{
@@ -2666,9 +2680,21 @@ vertical-align: top;}
 }
 
 .detailMainPhoto{
+	letter-spacing: -0.4em;
+}
+.detailMainPhoto .img{
+	letter-spacing: normal;
+	display: inline-block;
+	/*display: none;*/
+	width: 15%;
+	padding-right: 2%;
+	vertical-align: top;
 }
 .detailMainPhoto > dl{
-	margin-top: 15px;
+	letter-spacing: normal;
+	display: inline-block;
+	width: 83%;
+	vertical-align: top;
 }
 .detailMainPhoto > dl > dt{
 	color: #705757;
@@ -2692,9 +2718,15 @@ vertical-align: top;}
 	padding: 10px 0 20px;
 	font-size: 16px; }
 @media screen and (max-width: 767px) {
-	.detailMainPhoto > dl{
-		margin-top: 10px;
-	}
+	
+.detailMainPhoto .img{
+	width: 25%;
+	padding-right: 2%;
+}
+.detailMainPhoto > dl{
+	width: 73%;
+}
+	
 	.detailMainPhoto > dl > dt{
 		font-size: 20px;
 	}
