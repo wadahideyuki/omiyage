@@ -1013,6 +1013,10 @@ i[class^="icnBg-rank"] {
     background-color: #0aba69;
     color: #fff;
     box-shadow: 0 3px 0 #006235; }
+  .btn.clr7 {
+    background-color: #ff9000;
+    color: #fff;
+    box-shadow: 0 3px 0 #c46f00; }
   .btn.imgIn {
     display: block;
     padding: 0; }
@@ -3523,7 +3527,7 @@ vertical-align: top;}
 
 /*  */
 .pageMemberRegi .memberMain {
-  background-color: #c0e8d0;
+  background-color: #ffd6d6;
   margin-bottom: 30px; }
   .pageMemberRegi .memberMain .container {
     background: url(../img/member_main_bg.png) center top no-repeat;
@@ -3541,7 +3545,7 @@ vertical-align: top;}
         width: 355px;
         margin: auto; }
 .pageMemberRegi .memberTtl1 {
-  background: url(../img/bg1.png) 0 0 repeat;
+  background: url(../img/bg_slash.png) 0 0 repeat;
   margin-bottom: 30px;
   padding: 15px 20px;
   color: #fff;
@@ -3575,7 +3579,7 @@ vertical-align: top;}
           font-weight: bold;
           line-height: 1.5; }
           .pageMemberRegi .meritBox ol > li h4 > *.txt em {
-            color: #fd806e; }
+            color: #ff6551; }
     .pageMemberRegi .meritBox ol > li .img {
       padding: 0 15px;
       margin-bottom: 15px; }
@@ -3593,6 +3597,10 @@ vertical-align: top;}
 .pageMemberRegi .kutiRegiBox {
   width: 70%;
   margin: auto; }
+	.pageMemberRegi .kutiRegiBox > ul li{
+		background-color: #ffefed;}
+	.kutiRegiBox > ul li:nth-child(2n){
+		background-color: #fff;}
   .pageMemberRegi .kutiRegiBox .cellTtl {
     width: 210px; }
 @media screen and (max-width: 991px) {
