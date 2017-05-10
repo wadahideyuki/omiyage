@@ -34,21 +34,6 @@ $(".btnClose").click(function(){
 	$("#modalArea").fadeOut("fast");
 });
 
-$(window).resize(function(){
-	var winWRsz = $(window).width();
-	if(winW != winWRsz){
-		winW = winWRsz;
-		if(winW > 991){
-			$("#modalArea").fadeOut("fast");
-		}
-		if(winW < 768){
-			$(".hdBtm").hide();
-		}else{
-			$(".hdBtm").show();
-		}
-	}
-});
-
 
 //商品ページみんなの口コミを見るのタブ
 $(".tabBox1 .tab li a").click(function(){
@@ -66,6 +51,44 @@ $(".tabBox1 .tab li a").click(function(){
 	return false;
 });
 
+
+//ランキングをSPの時にアコーディオン
+	$(".ranking1 .ttl").click(function(){
+		if(winW < 768){
+			$(this).next(".list").slideToggle();
+		}
+		return false;
+	});//.ranking1 .ttl ClkEnd
+
+
+/*----- 読込処理 -----*/
+$(function(){
+	if(winW > 991){
+	}
+	if(winW < 768){
+		$(".ranking1 .list").hide();
+	}else{
+	}
+});//WinRszFncEnd
+/*----- /読込処理 -----*/
+
+/*----- リサイズ処理 -----*/
+$(window).resize(function(){
+	var winWRsz = $(window).width();
+	if(winW != winWRsz){
+		winW = winWRsz;
+		if(winW > 991){
+			$("#modalArea").fadeOut("fast");
+		}
+		if(winW < 768){
+			$(".hdBtm").hide();
+			$(".ranking1 .list").hide();
+		}else{
+			$(".hdBtm").show();
+		}
+	}
+});//WinRszFncEnd
+/*----- /リサイズ処理 -----*/
 
 
 });	

@@ -3069,6 +3069,11 @@ vertical-align: top;}
   .ranking1 > .row > * + * {
     margin-top: 20px; }
 }
+@media screen and (min-width: 768px) {
+	.ranking1 .list{
+		display: block !important;
+	}
+}
 
 .filterBox .ttl {
   background-color: #fd806e;
